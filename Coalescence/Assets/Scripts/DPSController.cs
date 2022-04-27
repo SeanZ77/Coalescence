@@ -7,9 +7,10 @@ using UnityEngine.UI;
 
 public class DPSController : MonoBehaviour
 {
-    public float damage, attackRange, attackRate, attackAnimationLength, offensiveDamage, offensiveSpeed, offensiveRange, offensiveCooldown;
+    public float damage, attackRange, attackRate, attackAnimationLength, offensiveDamage, offensiveSpeed, offensiveRange, offensiveCooldown, defensiveShield, defensiveCooldown;
     public GameObject offensiveIndicator;
     public Text offensiveCooldownText;
+    public Text defensiveCooldownText;
     public GameObject sprite;
     public Transform leftAttackPoint;
     public Transform rightAttackPoint;
@@ -17,12 +18,13 @@ public class DPSController : MonoBehaviour
     public Transform downAttackPoint;
 
     public LayerMask enemyLayers;
-    public PlayerMovementController movementController;
-
+    public PlayerMovementController playerMovementController;
+    public HealthController playerHealthController;
 
     private Animator animator;
     private bool offensiveAbilitySelected = false;
     private float nextOffensive = 0f;
+    private float nextDefensive = 0f;
     private float nextAttack = 0f;
     private Vector3 offensiveTargetPos;
 
@@ -34,8 +36,7 @@ public class DPSController : MonoBehaviour
     void Update()
     {
 
-
-
+        //Inputs
         if (Input.GetMouseButtonDown(0))
         {
             if (offensiveAbilitySelected)
@@ -54,7 +55,7 @@ public class DPSController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown("q"))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (Time.time >= nextOffensive)
             {
@@ -62,6 +63,18 @@ public class DPSController : MonoBehaviour
             }
             
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (Time.time >= nextDefensive)
+            {
+                DefensiveAbility();
+                nextDefensive = Time.time + defensiveCooldown;
+            }
+
+        }
+
+        //Ability Cooldown Display
 
         if (nextOffensive - Time.time < 0)
         {
@@ -72,6 +85,16 @@ public class DPSController : MonoBehaviour
             offensiveCooldownText.text = Math.Round(nextOffensive - Time.time).ToString();
         }
 
+        if (nextDefensive - Time.time < 0)
+        {
+            defensiveCooldownText.text = "0";
+        }
+        else
+        {
+            defensiveCooldownText.text = Math.Round(nextDefensive - Time.time).ToString();
+        }
+
+
         offensiveIndicator.SetActive(offensiveAbilitySelected);
         offensiveIndicator.transform.position = Input.mousePosition;
 
@@ -79,7 +102,7 @@ public class DPSController : MonoBehaviour
 
     IEnumerator Attack()
     {
-        if (movementController.facingLeft)
+        if (playerMovementController.facingLeft)
         {
             animator.SetTrigger("attackLeft");
             yield return new WaitForSeconds(attackAnimationLength);
@@ -91,7 +114,7 @@ public class DPSController : MonoBehaviour
             }
         }
 
-        if (movementController.facingRight)
+        if (playerMovementController.facingRight)
         {
             animator.SetTrigger("attackRight");
             yield return new WaitForSeconds(attackAnimationLength);
@@ -103,7 +126,7 @@ public class DPSController : MonoBehaviour
             }
         }
 
-        if (movementController.facingUp)
+        if (playerMovementController.facingUp)
         {
             animator.SetTrigger("attackUp");
             yield return new WaitForSeconds(attackAnimationLength);
@@ -115,7 +138,7 @@ public class DPSController : MonoBehaviour
             }
         }
 
-        if (movementController.facingDown)
+        if (playerMovementController.facingDown)
         {
             animator.SetTrigger("attackDown");
             yield return new WaitForSeconds(attackAnimationLength);
@@ -152,12 +175,27 @@ public class DPSController : MonoBehaviour
 
     void Impact()
     {
+        //Explosion animation
+
         Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, offensiveRange, enemyLayers);
         for (int i = 0; i < enemies.Length; i++)
         {
             HealthController healthController = enemies[i].GetComponent<HealthController>();
             healthController.TakeDamage(offensiveDamage);
         }
+    }
+
+    void DefensiveAbility()
+    {
+        if (playerHealthController.shield + 50 < playerHealthController.maxShield)
+        {
+            playerHealthController.shield += 50;
+        }
+        else
+        {
+            playerHealthController.shield = playerHealthController.maxShield;
+        }
+
     }
 
 }

@@ -27,7 +27,6 @@ public class PlayerMovementController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(facingLeft + " " + facingRight + " " + facingUp + " " + facingDown);
         if (input)
         {
             if (Input.GetKeyDown(KeyCode.W))
