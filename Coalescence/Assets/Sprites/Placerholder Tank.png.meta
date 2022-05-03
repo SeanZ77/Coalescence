@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: bd7f52ed3fd87f54486080f0cbe143f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4737573103406096173
+    second: Placerholder Tank_0
+  - first:
+      213: -7352028750387850527
+    second: Placerholder Tank_1
+  - first:
+      213: 659365700202223210
+    second: Placerholder Tank_2
+  - first:
+      213: 646389784305490888
+    second: Placerholder Tank_3
+  - first:
+      213: -589444447672125378
+    second: Placerholder Tank_4
+  - first:
+      213: -7026103450079224413
+    second: Placerholder Tank_5
+  - first:
+      213: 2664868823588160411
+    second: Placerholder Tank_6
+  - first:
+      213: -4295198519987071535
+    second: Placerholder Tank_7
+  - first:
+      213: 8781132182039868924
+    second: Placerholder Tank_8
+  - first:
+      213: -7655207066451974962
+    second: Placerholder Tank_9
+  - first:
+      213: 4748126837902375936
+    second: Placerholder Tank_10
+  - first:
+      213: 2054010535854131321
+    second: Placerholder Tank_11
+  - first:
+      213: 8292729713804417449
+    second: Placerholder Tank_12
+  - first:
+      213: -3292394177280365268
+    second: Placerholder Tank_13
+  - first:
+      213: -7356497103102286325
+    second: Placerholder Tank_14
+  - first:
+      213: 5461802382267835045
+    second: Placerholder Tank_15
+  - first:
+      213: -4216201921504718589
+    second: Placerholder Tank_16
+  - first:
+      213: -2774785707734604148
+    second: Placerholder Tank_17
+  - first:
+      213: 4715808088051101190
+    second: Placerholder Tank_18
+  - first:
+      213: 9132794344985894421
+    second: Placerholder Tank_19
+  - first:
+      213: 1140942783568011419
+    second: Placerholder Tank_20
+  - first:
+      213: -4019430249525327862
+    second: Placerholder Tank_21
+  - first:
+      213: -5857265687557480998
+    second: Placerholder Tank_22
+  - first:
+      213: 2976324769823032527
+    second: Placerholder Tank_23
+  - first:
+      213: 6104704209875710460
+    second: Placerholder Tank_24
+  - first:
+      213: -4598231043166594023
+    second: Placerholder Tank_25
+  - first:
+      213: -3980104619492884780
+    second: Placerholder Tank_26
+  - first:
+      213: 8928438217981095374
+    second: Placerholder Tank_27
+  - first:
+      213: 5050760583953075804
+    second: Placerholder Tank_28
+  - first:
+      213: -2124383113700342461
+    second: Placerholder Tank_29
+  - first:
+      213: 3867224517485683043
+    second: Placerholder Tank_30
+  - first:
+      213: -5435361256059826228
+    second: Placerholder Tank_31
+  - first:
+      213: -4414054286222345962
+    second: Placerholder Tank_32
+  - first:
+      213: -2756990425875384729
+    second: Placerholder Tank_33
+  - first:
+      213: -8605309671069807349
+    second: Placerholder Tank_34
+  - first:
+      213: 1225064955936247342
+    second: Placerholder Tank_35
+  - first:
+      213: 3340422034717587583
+    second: Placerholder Tank_36
+  - first:
+      213: -8213149032944622270
+    second: Placerholder Tank_37
+  - first:
+      213: 2487396754382122465
+    second: Placerholder Tank_38
+  - first:
+      213: 1971090515927630395
+    second: Placerholder Tank_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Placerholder Tank_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 293
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0e80afc52c04eb0800000000000000
+      internalID: -4737573103406096173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 293
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e25ca2edc858f990800000000000000
+      internalID: -7352028750387850527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 293
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6651a16c99862900800000000000000
+      internalID: 659365700202223210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 293
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb58f7851078f800800000000000000
+      internalID: 646389784305490888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 293
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e383da9d56fd1d7f0800000000000000
+      internalID: -589444447672125378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 293
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad91e653244e7e90800000000000000
+      internalID: -7026103450079224413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_6
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 293
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b934cf273148bf420800000000000000
+      internalID: 2664868823588160411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 293
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d51368f3b36464c0800000000000000
+      internalID: -4295198519987071535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 247
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5bc34f139dcd970800000000000000
+      internalID: 8781132182039868924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 247
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4e11a6bbd33c590800000000000000
+      internalID: -7655207066451974962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 247
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c7ba1d33cb4e140800000000000000
+      internalID: 4748126837902375936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 247
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978ce7223bf418c10800000000000000
+      internalID: 2054010535854131321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 244
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a993a9ecb1b51370800000000000000
+      internalID: 8292729713804417449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 244
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2da3aa80f01f42d0800000000000000
+      internalID: -3292394177280365268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 244
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06e5627cd878e990800000000000000
+      internalID: -7356497103102286325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 244
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2e47c24583ccb40800000000000000
+      internalID: 5461802382267835045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 176
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3015467d0ba0d75c0800000000000000
+      internalID: -4216201921504718589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 176
+        width: 77
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86e5aaa91bfd79d0800000000000000
+      internalID: -2774785707734604148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 176
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e233d787ae17140800000000000000
+      internalID: 4715808088051101190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_19
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 176
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e9493b1143ebe70800000000000000
+      internalID: 9132794344985894421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_20
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 176
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90ed9baa6175df00800000000000000
+      internalID: 1140942783568011419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_21
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 176
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a084591eb7d1838c0800000000000000
+      internalID: -4019430249525327862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 54
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add5d0ae3efc6bea0800000000000000
+      internalID: -5857265687557480998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_23
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 107
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc48f71eb970e4920800000000000000
+      internalID: 2976324769823032527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_24
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf13970822448b450800000000000000
+      internalID: 6104704209875710460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 54
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c91ec8a3dcf20c0800000000000000
+      internalID: -4598231043166594023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 107
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de3c32afe3d3c8c0800000000000000
+      internalID: -3980104619492884780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 54
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde8cd114f28eb70800000000000000
+      internalID: 8928438217981095374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_28
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 54
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e4114bdf7e71640800000000000000
+      internalID: 5050760583953075804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_29
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 107
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3458d0540dca482e0800000000000000
+      internalID: -2124383113700342461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_30
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 54
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3616a6f85342ba530800000000000000
+      internalID: 3867224517485683043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_31
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 54
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf02a24cb7b194b0800000000000000
+      internalID: -5435361256059826228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_32
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 107
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6193d6a63012eb2c0800000000000000
+      internalID: -4414054286222345962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_33
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 54
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7667b8890d33db9d0800000000000000
+      internalID: -2756990425875384729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_34
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 58
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d86a1727cc39880800000000000000
+      internalID: -8605309671069807349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_35
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 107
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e0c55361e400110800000000000000
+      internalID: 1225064955936247342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_36
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 54
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78ba3b64209b5e20800000000000000
+      internalID: 3340422034717587583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_37
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 55
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2452efb3878050e80800000000000000
+      internalID: -8213149032944622270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_38
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 55
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ede7685b22058220800000000000000
+      internalID: 2487396754382122465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placerholder Tank_39
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 107
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3202068168ba5b10800000000000000
+      internalID: 1971090515927630395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
