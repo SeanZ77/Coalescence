@@ -9,10 +9,14 @@ public class Journal : MonoBehaviour
     public GameObject journalPopup;
     public Text journalText;
     
-    void OnCollisionEnter2D(Collision2D collider)
+    void OnTriggerStay2D(Collider2D collider)
     {
-        journalText.text = text;
-        journalPopup.SetActive(true);
-        Destroy(gameObject);
+        if (!GameObject.Find("MenuManager").GetComponent<MenuController>().active)
+        {
+            journalText.text = text;
+            journalPopup.SetActive(true);
+            GameObject.Find("MenuManager").GetComponent<MenuController>().journalActive = true;
+            Destroy(gameObject);
+        }
     }
 }

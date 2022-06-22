@@ -155,6 +155,7 @@ public class DPSController : MonoBehaviour
     {
         offensiveAbilitySelected = false;
         PlayerMovementController movementController = GetComponent<PlayerMovementController>();
+        movementController.SetDirection(false, false, false, false);
         movementController.input = false;
 
         float directionX = attackPos.x - transform.position.x;

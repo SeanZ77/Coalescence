@@ -12,7 +12,20 @@ public class HealthController : MonoBehaviour
 
     void Update() 
     {
+        if (health < 0)
+        {
+            Destroy(gameObject);
+        }
 
+        shieldBar.value = (float)shield;
+        shieldBar.maxValue = (float)maxShield;
+        healthBar.value = (float)health;
+        healthBar.maxValue = (float)maxHealth;
+
+    }
+
+    void FixedUpdate()
+    {
         if (!inCombat)
         {
             if (shield < maxShield)
@@ -25,17 +38,6 @@ public class HealthController : MonoBehaviour
                 health += maxHealth * healthRegenAmount;
             }
         }
-
-        if (health < 0)
-        {
-            Destroy(gameObject);
-        }
-
-        shieldBar.value = (float)shield;
-        shieldBar.maxValue = (float)maxShield;
-        healthBar.value = (float)health;
-        healthBar.maxValue = (float)maxHealth;
-
     }
 
     public void TakeDamage(float damage) 

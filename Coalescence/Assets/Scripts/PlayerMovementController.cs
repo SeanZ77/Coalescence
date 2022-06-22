@@ -136,6 +136,14 @@ public class PlayerMovementController : MonoBehaviour
             rb.velocity = new Vector2(movePos.x * speed, movePos.y * speed);
         }
     }
+
+    public void SetDirection(bool left, bool right, bool up, bool down) 
+    {
+        movingLeft = left;
+        movingRight = right;
+        movingUp = up;
+        movingDown = down;
+}
 }
 
 
